@@ -31,6 +31,7 @@ gem 'jbuilder', '~> 2.5'
 # gem 'capistrano-rails', group: :development
 group :development, :test do
   gem 'sqlite3', '~> 1.3'
+  gem 'rb-readline'
   gem 'byebug', platforms: [:mri]
 end
 
